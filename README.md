@@ -1,33 +1,68 @@
-# Price Prediction Using Financial News Sentiment
+Here's a **concise version** of the `README.md` with only the **essential sections**:
 
-This repository contains the Week 1 challenge of the 10 Academy Artificial Intelligence Mastery Program. The objective is to explore how financial news headlines influence stock price movements using natural language processing (NLP) and technical indicators.
+---
 
-## Project Objective
+# 📊 Financial News Sentiment & Stock Movement Analysis
 
-The goal of this project is to predict short-term stock price movements by analyzing the sentiment of financial news headlines and linking it with quantitative technical indicators. The work is designed to simulate a real-world data analyst or machine learning engineer's workflow in the financial domain.
+This project analyzes financial news headlines and their correlation with stock price movements. It uses NLP for sentiment analysis and financial indicators to uncover predictive insights.
 
-We aim to:
-- Perform Exploratory Data Analysis (EDA) on financial news data
-- Compute technical indicators from historical stock market data
-- Investigate the correlation between sentiment scores and daily stock returns
-- Provide meaningful insights that could support investment decisions
+---
 
-## Project Structure
+## 🎯 Objectives
+
+* **Sentiment Analysis**: Quantify headline tone using NLP.
+* **Stock Movement Correlation**: Analyze how sentiment relates to price changes.
+* **Investment Insights**: Recommend strategies based on findings.
+
+---
+
+## 🗂️ Folder Structure
+
+```
+├── notebooks/          # Jupyter notebooks
+├── scripts/            # Data processing & analysis scripts
+├── src/                # Core Python modules
+├── tests/              # Unit tests
+├── .github/workflows/  # CI/CD configuration
+├── requirements.txt    # Dependencies
+└── README.md           # Project overview
+```
+
+---
+
+## ⚙️ Setup
 
 ```bash
-.
-├── .vscode/              
-├── .github/          
-│       └── unittests.yml
-├── notebooks/
-│   ├── EDA.ipynb
-│   └── technical_analysis.ipynb  
-├── src/
-│   └── __init__.py       
-├── scripts/
-│   └── __init__.py       
-├── tests/
-│   └── __init__.py      
-├── requirements.txt      
-├── README.md             
-├── .gitignore            
+git clone <repo_url>
+cd <project_folder>
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+---
+
+## ✅ Tasks Overview
+
+* **Task 1**: Git setup, EDA, publisher & date analysis.
+* **Task 2**: Stock data analysis with TA-Lib & PyNance.
+* **Task 3**: Sentiment scoring, daily return calculation, correlation.
+
+---
+
+## 🛠️ Tools Used
+
+* Python, Pandas, NLTK, TextBlob
+* TA-Lib, PyNance
+* Git, GitHub Actions
+
+---
+
+## 📅 Deadlines
+
+* **Interim Submission**: 30 May 2025, 8:00 PM UTC
+* **Final Submission**: 03 June 2025, 8:00 PM UTC
+
+---
+
+Let me know if you want to auto-generate badges or include an example command for running scripts.
