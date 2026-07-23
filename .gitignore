@@ -1,3 +1,26 @@
 venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+
+# Local datasets (download separately)
+data/raw/*.csv
+data/stocks/*.csv
 raw_analyst_ratings.csv
-yfinance_data
+yfinance_data/
+
+# Environment
+.env
+.env.*
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+
+# OS
+.DS_Store
+Thumbs.db
